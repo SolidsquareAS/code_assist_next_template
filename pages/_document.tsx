@@ -17,7 +17,7 @@ interface MyDocumentProps extends DocumentProps {
   emotionStyleTags: JSX.Element[];
 }
 
-export default function MyDocument({ emotionStyleTags }: MyDocumentProps) {
+const MyDocument = ({ emotionStyleTags }: MyDocumentProps) => {
   return (
     <Html lang="en" className={roboto.className}>
       <Head>
@@ -33,7 +33,7 @@ export default function MyDocument({ emotionStyleTags }: MyDocumentProps) {
       </body>
     </Html>
   );
-}
+};
 
 // `getInitialProps` belongs to `_document` (instead of `_app`),
 // it's compatible with static-site generation (SSG).
