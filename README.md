@@ -1,4 +1,4 @@
-# Next.js, TypeScript, MUI and Firebase template
+# React, Next.js, TypeScript, MUI and Firebase template
 
 ## How to use
 
